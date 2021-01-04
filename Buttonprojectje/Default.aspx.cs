@@ -13,5 +13,13 @@ namespace Buttonprojectje
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Random randomnummer =new Random();
+            int dice = randomnummer.Next(1, 6);
+            
+            Label1.Text = TextBox1.Text + dice.ToString(); 
+        }
     }
 }
