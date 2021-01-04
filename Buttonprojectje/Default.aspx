@@ -10,6 +10,7 @@
     <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Gooi Dobbelsteen" />
     &nbsp;of vul hier wat in en klik daarna op gooi dobbelsteen
     <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+    <asp:Button ID="Button2" runat="server" OnClick="Button1_Click" Text="Gooi Dobbelsteen" />
     <br />
     <br />
     <asp:Image ID="Image1" runat="server" />
