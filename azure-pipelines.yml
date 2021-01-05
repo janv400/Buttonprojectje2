@@ -37,3 +37,6 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'artifectnaam'
     publishLocation: 'Container'
+    
+
+
